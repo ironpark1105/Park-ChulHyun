@@ -743,11 +743,11 @@ p {
     }
     .sub-box2 img{
         width: 100%;
-        max-width: 365px;
+        text-align: center;
     }
     .sub-box3 img{
         width: 100%;
-        max-width: 365px;
+        text-align: center;
     }
 }
 
