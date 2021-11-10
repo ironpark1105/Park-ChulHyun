@@ -532,7 +532,16 @@ p {
     opacity: 1;
     pointer-events: auto;
 } 
-
+.sub-img2{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.sub-img2-box{
+    margin: 0 auto;
+}
 .sub-box{
     width: 100%;
     max-width: 1200px;
@@ -742,8 +751,8 @@ p {
         text-align: center;
     }
     .sub-box2 img{
-        width: 100%;
         text-align: center;
+        width: 100%;
     }
     .sub-box3 img{
         width: 100%;
