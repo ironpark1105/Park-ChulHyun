@@ -114,22 +114,23 @@ p {
 
 .navbar__menu {
     display: flex;
-
+}
+.navbar__menu a{
+    color: #000000;
 }
 
-#navbar.navbar--dark {
-    background-color: var(--color-blue);
-    padding: 1px;
-    padding: 16px;
-    transition: all var(--animation-duration) ease-in-out;
-}
-
-
-.navbar__logo a{
+#navbar__logo{
     font-size: var(--font-medium);
     font-weight: var(--weight-semi-bold);
     color: black;
 }
+#navbar.navbar--dark {
+    background-color: var(--color-blue);
+    color: #ffffff;
+    padding: 1px;
+    transition: all var(--animation-duration) ease-in-out;
+}
+
 
 
 .navbar__menu__item {
@@ -234,6 +235,9 @@ p {
 #aboutskills{
     padding: 0 50px;
     margin-top: 100px;
+}
+#aboutskills h1{
+    padding-top: 70px;
 }
 .about__majors {
     display: flex;
@@ -345,6 +349,9 @@ p {
 /* Work */
 #work{
     margin-top: 100px;
+}
+#work h1{ 
+    padding-top: 70px;
 }
 .work__categories {
     margin: 40px;
@@ -568,6 +575,10 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+}
+.show{
+    width: 100%;
+    max-width: 1200px;
 }
 .sub-box a{
     position: absolute;
