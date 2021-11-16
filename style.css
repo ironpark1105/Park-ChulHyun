@@ -116,6 +116,8 @@ p {
     display: flex;
 }
 .navbar__menu a{
+    padding: 8px 12px;
+    margin: 0 4px;   
     color: #000000;
 }
 
@@ -349,6 +351,7 @@ p {
 /* Work */
 #work{
     margin-top: 100px;
+    background-color: #eeeeee;
 }
 #work h1{ 
     padding-top: 70px;
@@ -363,6 +366,7 @@ p {
     font-size: var(--font-regular);
     padding: 8px 48px;
     position: relative;
+    background-color: white;
 }
 
 .category__btn.selected,
@@ -397,7 +401,6 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   opacity: 1;
-  margin-bottom: 20px;
   transition: all var(--animation-duration) ease-out;
 }
 
@@ -488,7 +491,6 @@ p {
 
 /* Contact */
 #contact {
-    margin-top: 50px;
     padding: 50px 0;
     background-color:#ddd;
 }
@@ -603,7 +605,17 @@ p {
 }
 
 /* 서브2 */
-
+#gototop{
+    width: 80px;
+    height: 80px;
+    display: block;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  } 
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
     :root {
