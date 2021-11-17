@@ -365,7 +365,10 @@ p {
     background-color: #eeeeee;
 }
 #work h1{ 
-    padding-top: 70px;
+    padding-top: 30px;
+}
+#work h3{ 
+    padding-bottom: 30px;
 }
 .work__categories {
     margin: 40px;
@@ -638,7 +641,7 @@ p {
         --font-micro: 12px;
     }
     .home__description{
-        font-size: 10px;
+        font-size: 12px;
     }
     .section__container p{
         font-size: 14px;
